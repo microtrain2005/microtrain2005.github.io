@@ -1,0 +1,3 @@
+Contact: mailto:bootcamp@microtrain.net
+Preferred-Languages: en
+Canonical: microtrain2005.github.io/security.txt

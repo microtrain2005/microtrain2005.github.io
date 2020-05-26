@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: MicroTrain2005.
+Site: <not to be public>@email.com, contact.html
+Twitter: microtraintechnologies.
+Location: Chicago, IL. USA.
+
+/* THANKS */
+Name: Developer MicroTrain2005, Assistant MicroTrain2005.
+
+/* SITE */
+Last update: 2020/05/26
+Standards: HTML5, CSS3,
+Components: Modernizr, javascript, jQuery, etc.
+Software: Software used for the development
