@@ -3,16 +3,37 @@
     <head>
       <meta charset="UTF-8">
       <title>MicroTrain2005 Thank You</title>
-      <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    </head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+  </head>
     <body>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-          <h1>Thank you for your contact.</h1>          
-    </body>
+      <header>
+        <span class="logo">MicroTrain2005 WebSite</span>
+        <a id="toggleMenu">Menu<a>
+          <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+          <h1>Thank you for your contact.</h1>
+      </main>          
+          <script>
+            var toggleMenu = document.getElementById('toggleMenu');
+            var nav = document.querySelector('nav');
+            toggleMenu.addEventListener(
+              'click',
+              function(){
+                if(nav.style.display=='block'){
+                  nav.style.display='none';
+                }else{
+                  nav.style.display='block';
+                }
+              }
+            );
+          </script>
+        </body>
 </html>
